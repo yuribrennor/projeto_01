@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(https://i.ibb.co/BnLBRFb/Dream-Shaper-v6-ghost-in-the-machine-3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 803px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: normal;
+}
+
+header,
+section h1 {
+    font-family: 'Anton', sans-serif;
+    font-weight: normal;
+}
+
+header {
+    padding: 8px;
+    background-color: rgb(0, 0, 0);
+    color: #ffffff;
+}
+
+header nav li {
+    display: inline;
+    margin-left: 16px;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+}
+
+header nav li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: normal;
+}
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+h1 {
+    color: rgb(159, 0, 0);
+    font-size: 64px;
+    line-height: 80px;
+}
+
+h2 {
+    color: rgb(255, 255, 255);
+    font-weight: normal;
+    font-size: 20px;
+}
+
+h3 {
+    color: #ffffff;
+    padding: 10px;
+}
+
+
+.container p,
+h4 {
+    color: #ffffff;
+    font-size: 14px;
+    padding: 10px;
+}
+
+a {
+    padding: 12px 32px;
+    font-weight: 700;
+    font-size: 20;
+    line-height: 24px;
+}
+
+a:hover {
+    color: rgb(159, 0, 0);
+}
+
+section .container {
+    text-align: center;
+}
+
+#main-section .container {
+    display: block;
+    text-align: center;
+    height: 713px;
+    padding: 10%;
+}
+
+#forms {
+    background-color: #000000;
+}
+
+form input,
+form textarea,
+form button {
+    font-family: 'Anton', sans-serif;
+    font-weight: normal;
+    align-items: center;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+form textarea {
+    resize: none;
+    height: 180px;
+}
+
+form button {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: rgb(159, 0, 0);
+    color: #000000;
+}
+
+footer {
+    background-color: #000000;
+    color:rgb(159, 0, 0);
+    text-align: center;
+    font-size: 14px;
+    padding: 10px 0;
+}
